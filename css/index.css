@@ -7,10 +7,10 @@
 
   font-style: normal;
 }
-body {
+/* body {
   background-color: #ffffff;
   scroll-behavior: smooth;
-}
+} */
 
 /* Navigation css start here*/
 .nav-bar {
@@ -81,7 +81,7 @@ body {
 .navigation ul li a {
   text-decoration: none;
   cursor: pointer;
-  color: black;
+  /* color: black; */
 }
 
 .navigation ul li a:hover {
@@ -1334,6 +1334,21 @@ cursor: pointer;
     left: 211px;
     opacity:0.2;
 
+}
+
+
+body {
+  transition: background-color 0.5s ease;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+.dark-mode li a{
+  background-color: #222;
+  color: #fff;
 }
 
 
